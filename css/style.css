@@ -1,13 +1,12 @@
 *{margin:0;padding:0;}
 header{
-    overflow:hidden;
     height:130px;
     background-color:#292E33;
 }
 body{background-color: #F4F4F4;}
 #slider {
     background-color: #00CDFF;
-    height:425px;
+    height:410px;
     position:relative;
 }
 
@@ -38,14 +37,14 @@ body{background-color: #F4F4F4;}
 }
 
 #main_body {
-    overflow: hidden;
+    
     
 }
 #heading {
 }
 
 #ad {
-    height:180px;
+    height:170px;
     background-color: #E9D000;
     position: relative;
     
@@ -66,15 +65,21 @@ body{background-color: #F4F4F4;}
     src:url(../fonts/DroidSans-Bold.ttf);
     font-family:'droidsans';
 }
-.logo_img{float:left;width:54%;}
-.logo_img img{width:100%;}
-.tagline{float:right;margin:2px 0;margin-right:27px;}
-
-
+.logo_img{
+    float:left;width:54%;
+}
+.logo_img img{
+    width:100%;
+}
+.tagline{
+    float:right;
+    margin:2px 0;
+    margin-right:2.9%;
+}
 .nav {
     float:right;
     width:60%;
-    overflow: hidden;
+    height:130px;
 }
 .nav ul{list-style: none;}
 .nav ul li{float: left;}
@@ -90,34 +95,47 @@ body{background-color: #F4F4F4;}
 }
 .nav ul li a:hover{background-color: #1D2329;
 border-top:6px solid #FFDB00;}
-#slider .text {
-    margin:0 300px;
-    text-align: center;
-}
 #slider .text{
-    padding-bottom:50px;
-}
-#slider .text h1{
-    font-family:'droidsans';
-    font-size: 70px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    color:white;
-    width:480px;
+    width:70%;
+    height:200px;
     margin:0 auto;
-    border-top:2px dotted white;
+    
+    padding:5% 0;
 }
-#slider .text p{
+#slider .text .top_t{
+    height:22px;
+    margin:0 auto;
+    text-align: center;
     font-family:'Quicksand', sans-serif;
-    font-size:22.5px;
-    padding:40px 0;
+    font-size:25px;
     color:white;
     
+    padding-bottom:7%;
 }
-#slider .text p:last-child{
-    border-top:2px dotted white;
-    width:380px;
+#slider .text h1{
+    padding-top:2%;
+    padding-bottom:3%;
+    width:61%;
     margin:0 auto;
+    text-align: center;
+    height:66px;
+    font-family:'droidsans';
+    font-size: 66px;
+    color:white;
+    border-top:2px dotted white;
+    
+}
+#slider .text .bottom_t p {
+    
+    width:52%;
+    height:25px;
+    margin:0 auto;
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+    font-size:22.5px;
+    color:white;
+    border-top:2px dotted white;
+    padding-top:7%;
 }
 .offer_content {
     
@@ -130,7 +148,6 @@ border-top:6px solid #FFDB00;}
 }
 .pack_img {
     height:220px;
-    padding:0 5px;
     padding-top:50px;
     transition: 0.08s;
 }
@@ -139,17 +156,24 @@ border-top:6px solid #FFDB00;}
     
 }
 
-.pack_img1 {
+.pack_img .pack_img1 {
     width:19.8%;
     float:left;
+    padding:0 1px;
+}
+.pack_img .pack_img1 img{
+    width:90%;
 }
 .pack_img1:last-child img{
-    padding:67px 0;
-    margin:0 80px;
+    padding:64px 0;
+    width:40%;
+    height:70px;
 }
 .pack_img1:first-child img{
-    padding:67px 0;
-    margin:0 80px;
+    padding:64px 0;
+     width:40%;
+    height:70px;
+    margin-left:50%;
 }
 
 .menu {
@@ -159,8 +183,11 @@ border-top:6px solid #FFDB00;}
     position:absolute;
     right:18%;
     top:90%;
+    
 }
 .menu form{
+    width:100%;
+    height:84px;
     
 }
 .menu form .single_form label{
@@ -179,10 +206,9 @@ border-top:6px solid #FFDB00;}
     height:48px;
     border-radius:10px;
 }
-
 .single_form {
     float:left;
-    padding:6px 19px;
+    padding:0.5% 3%;
     position:relative;
 }
 .single_form i{
@@ -192,15 +218,20 @@ border-top:6px solid #FFDB00;}
 }
 .fa.fa-calendar {
 }
-.btn button{
-    width:190px;
+.menu .btn{
+    float:right;
+    width:17%;
     height:48px;
-    margin:25px 0;
+    margin:2.3% 1.28%;
+}
+.btn button{
+    width:100%;
+    height:48px;
     border-radius: 8px;
-    margin-left:22px;
     background-color:#EAD600;
     font-size: 15px;
     transition: 0.5s;
+    
 }
 .btn button:hover{
     transform:scale(1.05);
@@ -212,7 +243,7 @@ border-top:6px solid #FFDB00;}
     overflow: hidden;
 }
 .main_body_content #bg{width:100%;
-    height:830px;}
+    height:890px;}
 .title_text {
     position: absolute;
     top:40px;
@@ -235,7 +266,7 @@ border-top:6px solid #FFDB00;}
     
     float:left;
     width:30%;
-    margin:16px 18px;
+    margin:16px 16px;
     transition: 0.7s;
 }
 .single_img .image{
@@ -283,12 +314,11 @@ border-top:6px solid #FFDB00;}
 }
 #ad .ad_image {
     float:right;
-    height:200px;
+    height:280px;
     width:25%;
     position: absolute;
- bottom:98px;
-    left:65%;
-    bottom:40%;
+    right:12%;
+    bottom:-5%;
     
     
 }
@@ -307,7 +337,7 @@ footer{
     width:100%;
     height:420px;
     
-    padding:30px 0;
+    padding-top:30px;
 }
 
 .news_and_details {

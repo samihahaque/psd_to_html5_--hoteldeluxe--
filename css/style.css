@@ -43,7 +43,7 @@ body{background-color: #F4F4F4;}
 #heading {
 }
 
-#ad {
+#comment {
     height:170px;
     background-color: #E9D000;
     position: relative;
@@ -295,26 +295,26 @@ border-top:6px solid #FFDB00;}
     padding:8px 0;
 }
 
-#ad .ad_text {
+#comment .comment_text {
     float: left;
     padding:44px 0;
     color:white;
     width:60%;
     height:170px;
 }
-#ad .ad_text h1{
+#comment .comment_text h1{
     font-family:'Quicksand', 'sans-serif';
     font-weight:300;
     font-size:40px;
     padding-bottom:25px;
     word-spacing:8px;
 }
-#ad .ad_text p{
+#comment .comment_text p{
     font-family:'Quicksand', 'sans-serif';
     font-style: italic;
     font-weight: 100;
 }
-#ad .ad_image {
+#comment .comment_image {
     float:right;
     height:280px;
     width:25%;
@@ -324,12 +324,12 @@ border-top:6px solid #FFDB00;}
     
     
 }
-#ad .ad_image img {
+#comment .comment_image img {
     width:100%;
     height:280px;
 }
 footer{
-    height:410px;
+    height:420px;
     font-family:'Quicksand', 'sans-serif';
     font-size: 14px;
     background-color:#333333;
@@ -345,7 +345,7 @@ footer{
 .news_and_details {
     width:41%;
     
-    height:400px;
+    height:370px;
     float:left;
 }
 

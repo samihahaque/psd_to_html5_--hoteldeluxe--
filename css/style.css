@@ -115,7 +115,7 @@ border-top:6px solid #FFDB00;}
 #slider .text h1{
     padding-top:2%;
     padding-bottom:3%;
-    width:61%;
+    width:66%;
     margin:0 auto;
     text-align: center;
     height:66px;
@@ -299,6 +299,8 @@ border-top:6px solid #FFDB00;}
     float: left;
     padding:44px 0;
     color:white;
+    width:60%;
+    height:170px;
 }
 #ad .ad_text h1{
     font-family:'Quicksand', 'sans-serif';
